@@ -15,9 +15,6 @@ jobs:
       - ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-rust-toolchain@v4
-        with:
-          toolchain: stable
       - run: cargo test
       
       
