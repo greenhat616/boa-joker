@@ -1,0 +1,11 @@
+[package]
+name = "boa-joker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+boa_engine = "0.20"
+isahc = "1.7"
+boa_parser = "0.20"
+futures-util = "0.3"
+smol = "2"
