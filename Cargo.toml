@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-boa_engine = "0.20"
+boa_engine = { version = "0.20", features = ["annex-b"] }
 isahc = "1.7"
-boa_parser = "0.20"
+boa_parser = { version = "0.20", features = ["annex-b"] }
 futures-util = "0.3"
 smol = "2"
